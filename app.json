@@ -1,0 +1,17 @@
+{
+  "name": "Symmetrical Lamp",
+  "description": "Test application",
+  "repository": "https://github.com/matthewchigira/symmetrical-lamp",
+  "env": {
+    "RAILS_ENV": "production"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "scripts": {
+    "postdeploy": "rails db:migrate"
+  }
+}
+
