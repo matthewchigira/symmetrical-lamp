@@ -1,6 +1,6 @@
 {
   "name": "Symmetrical Lamp",
-  "description": "Test app",
+  "description": "Test app (force push before pulling for upstream)",
   "repository": "https://github.com/matthewchigira/symmetrical-lamp",
   "env": {
     "RAILS_ENV": "production"
