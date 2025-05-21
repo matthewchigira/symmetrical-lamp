@@ -1,6 +1,6 @@
 {
   "name": "Symmetrical Lamp",
-  "description": "Test application",
+  "description": "Test app",
   "repository": "https://github.com/matthewchigira/symmetrical-lamp",
   "env": {
     "RAILS_ENV": "production"
