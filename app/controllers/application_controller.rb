@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   def index
-    render json: { message: 'Hello, world!, v3' }
+    render json: { message: 'Hello, world!, v4' }
   end
 end
