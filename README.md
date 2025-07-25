@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Denne README-filen ville normalt dokumentere alle nødvendige steg for å få
+applikasjonen opp og kjøre.
 
-Things you may want to cover:
+Ting du kanskje vil dekke:
 
-* Ruby version
+* Ruby-versjon
 
-* System dependencies
+* Systemavhengigheter
 
-* Configuration
+* Konfigurasjon
 
-* Database creation
+* Opprettelse av database
 
-* Database initialization
+* Initialisering av database
 
-* How to run the test suite
+* Hvordan kjøre testsuiten
 
-* Services (job queues, cache servers, search engines, etc.)
+* Tjenester (jobbkøer, hurtigbufferservere, søkemotorer, osv.)
 
-* Deployment instructions
+* Distribusjonsinstruksjoner
 
 * ...
