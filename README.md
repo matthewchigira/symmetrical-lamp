@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+이 README는 일반적으로 애플리케이션을 실행하는 데 필요한 모든 단계를 문서화합니다.
 
-* Ruby version
+다룰 수 있는 항목들:
 
-* System dependencies
+* Ruby 버전
 
-* Configuration
+* 시스템 의존성
 
-* Database creation
+* 설정
 
-* Database initialization
+* 데이터베이스 생성
 
-* How to run the test suite
+* 데이터베이스 초기화
 
-* Services (job queues, cache servers, search engines, etc.)
+* 테스트 스위트 실행 방법
 
-* Deployment instructions
+* 서비스 (작업 큐, 캐시 서버, 검색 엔진 등)
 
+* 배포 지침
 * ...
