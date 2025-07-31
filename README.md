@@ -1,24 +1,24 @@
-# README
+# REDDE MEE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Redde Mee doth ordinarily set forth whatsoever steppes be necessarie to bring the
+application unto its proper working estate.
 
-Things you may want to cover:
+Thinges ye may wish to covere:
 
-* Ruby version
+* Ruby versyon
 
-* System dependencies
+* Systeme dependencyes
 
-* Configuration
+* Configuracyon
 
-* Database creation
+* Database creacyon
 
-* Database initialization
+* Database inicializacyon  
 
-* How to run the test suite
+* How to renne the teste suyte
 
-* Services (job queues, cache servers, search engines, etc.)
+* Servyces (jobbe queues, cache serveres, searche engynes, &c.)
 
-* Deployment instructions
+* Deploimente instructyons
 
 * ...
