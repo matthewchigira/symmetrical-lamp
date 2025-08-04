@@ -1,0 +1,46 @@
+# Farsi (Persian) locale file for READE application
+# This file contains all user-facing text translated to Farsi
+# 
+# To use Farsi locale, set: I18n.locale = :fa
+# In views, use: <%= t("key") %>
+
+fa:
+  # General application content  
+  hello: "سلام دنیا"
+  
+  # Application metadata
+  app:
+    name: "ریده"  # READE in Persian script
+    title: "ریده"
+    description: "برنامه آزمایشی (قبل از کشیدن، فشار اجباری برای بالادست)"
+  
+  # API messages
+  api:
+    hello_message: "سلام دنیا! نسخه ۲"
+  
+  # JavaScript UI text
+  ui:
+    hello_world: "سلام دنیا!"
+  
+  # Error pages
+  errors:
+    not_found:
+      title: "صفحه‌ای که دنبال آن می‌گردید وجود ندارد (۴۰۴)"
+      heading: "صفحه‌ای که دنبال آن می‌گردید وجود ندارد."
+      message: "ممکن است آدرس را اشتباه تایپ کرده باشید یا صفحه جابه‌جا شده باشد."
+      owner_message: "اگر مالک برنامه هستید، برای اطلاعات بیشتر لاگ‌ها را بررسی کنید."
+    
+    unprocessable_entity:
+      title: "تغییری که خواستید رد شد (۴۲۲)"
+      heading: "تغییری که خواستید رد شد."
+      message: "شاید سعی کردید چیزی را تغییر دهید که دسترسی به آن نداشتید."
+      owner_message: "اگر مالک برنامه هستید، برای اطلاعات بیشتر لاگ‌ها را بررسی کنید."
+    
+    internal_server_error:
+      title: "متأسفیم، اما مشکلی رخ داده است (۵۰۰)"
+      heading: "متأسفیم، اما مشکلی رخ داده است."
+      owner_message: "اگر مالک برنامه هستید، برای اطلاعات بیشتر لاگ‌ها را بررسی کنید."
+  
+  # Email configuration
+  mailer:
+    default_from: "از: example@example.com"

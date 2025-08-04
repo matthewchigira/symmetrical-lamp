@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+
+/* RTL support for Farsi language */
+html[dir="rtl"] {
+  text-align: right;
+}
+
+html[dir="rtl"] body {
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  direction: rtl;
+}
+
+/* Ensure proper text direction for mixed content */
+html[dir="rtl"] .ltr-content {
+  direction: ltr;
+  text-align: left;
+}
+
+html[dir="ltr"] .rtl-content {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Locale switcher styling */
+.locale-switcher {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+html[dir="rtl"] .locale-switcher {
+  right: auto;
+  left: 10px;
+}
+
+.locale-switcher select {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  padding: 2px;
+}
