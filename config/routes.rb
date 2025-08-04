@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "application#index"
+  
+  # Locale switching route
+  post "set_locale", to: "application#set_locale_action"
 end

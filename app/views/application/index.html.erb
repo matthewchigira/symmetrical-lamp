@@ -1,0 +1,53 @@
+<div class="container">
+  <h1><%= t('app.name') %></h1>
+  
+  <div class="welcome-message">
+    <h2><%= t('hello') %></h2>
+    <p><%= t('app.description') %></p>
+  </div>
+  
+  <div class="demo-section">
+    <h3>JavaScript Test:</h3>
+    <div data-controller="hello" data-text="<%= t('ui.hello_world') %>">
+      Loading...
+    </div>
+  </div>
+  
+  <div class="locale-info">
+    <p><strong>Current Locale:</strong> <%= I18n.locale %></p>
+    <p><strong>Available Locales:</strong> <%= I18n.available_locales.join(', ') %></p>
+  </div>
+  
+  <div class="test-links">
+    <h3>Test Error Pages:</h3>
+    <ul>
+      <li><a href="/404-fa.html">404 Error Page (Farsi)</a></li>
+      <li><a href="/422-fa.html">422 Error Page (Farsi)</a></li>
+      <li><a href="/500-fa.html">500 Error Page (Farsi)</a></li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .welcome-message, .demo-section, .locale-info, .test-links {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  html[dir="rtl"] .test-links ul {
+    text-align: right;
+  }
+  
+  html[dir="rtl"] .test-links li {
+    list-style-position: inside;
+  }
+</style>

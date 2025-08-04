@@ -28,4 +28,42 @@
 #       enabled: "ON"
 
 en:
+  # General application content  
   hello: "Hello world"
+  
+  # Application metadata
+  app:
+    name: "READE"
+    title: "READE"
+    description: "Test app (force push before pulling for upstream)"
+  
+  # API messages
+  api:
+    hello_message: "Hello, world!, v2"
+  
+  # JavaScript UI text
+  ui:
+    hello_world: "Hello World!"
+  
+  # Error pages
+  errors:
+    not_found:
+      title: "The page you were looking for doesn't exist (404)"
+      heading: "The page you were looking for doesn't exist."
+      message: "You may have mistyped the address or the page may have moved."
+      owner_message: "If you are the application owner check the logs for more information."
+    
+    unprocessable_entity:
+      title: "The change you wanted was rejected (422)"
+      heading: "The change you wanted was rejected."
+      message: "Maybe you tried to change something you didn't have access to."
+      owner_message: "If you are the application owner check the logs for more information."
+    
+    internal_server_error:
+      title: "We're sorry, but something went wrong (500)"
+      heading: "We're sorry, but something went wrong."
+      owner_message: "If you are the application owner check the logs for more information."
+  
+  # Email configuration
+  mailer:
+    default_from: "from@example.com"

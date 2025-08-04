@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html dir="<%= I18n.locale == :fa ? 'rtl' : 'ltr' %>" lang="<%= I18n.locale %>">
   <head>
-    <title>SymmetricalLamp</title>
+    <title><%= t('app.title') %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <div class="locale-switcher">
+      <%= form_with url: set_locale_path, method: :post, local: true do |form| %>
+        <%= form.select :locale, options_for_select([['English', 'en'], ['فارسی', 'fa']], I18n.locale), {}, { onchange: 'this.form.submit();' } %>
+      <% end %>
+    </div>
+    
     <%= yield %>
   </body>
 </html>
