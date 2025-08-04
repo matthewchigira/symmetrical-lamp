@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   def index
-    render json: { message: 'Hello, world!, v2' }
+    # Renders the app/views/application/index.html.erb view
+    # which displays "Hello, world" message via Stimulus controller
   end
 end
