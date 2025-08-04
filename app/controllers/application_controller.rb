@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   def index
-    render json: { message: 'Hello, world!, v2' }
+    # Render the HTML view for the main screen
   end
 end
