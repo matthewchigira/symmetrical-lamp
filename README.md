@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Byddai'r README hwn fel arfer yn dogfennu pa bynnag gamau sy'n angenrheidiol i gael yr
+rhaglen i fynd ac i redeg.
 
-Things you may want to cover:
+Pethau y gallech chi eisiau eu cynnwys:
 
-* Ruby version
+* Fersiwn Ruby
 
-* System dependencies
+* Dibyniaethau system
 
-* Configuration
+* Cyfluniad
 
-* Database creation
+* Creu cronfa ddata
 
-* Database initialization
+* Cychwyn cronfa ddata
 
-* How to run the test suite
+* Sut i redeg y gyfres prawf
 
-* Services (job queues, cache servers, search engines, etc.)
+* Gwasanaethau (ciwiau swyddi, gweinyddion storfa, peiriannau chwilio, ayb.)
 
-* Deployment instructions
+* Cyfarwyddiadau defnyddio
 
 * ...
