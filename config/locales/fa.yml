@@ -1,0 +1,35 @@
+# Farsi (Persian) translations for READE application
+# فارسی ترجمه‌های برنامه READE
+
+fa:
+  hello: "سلام دنیا"
+  
+  # Application messages
+  api:
+    hello_world: "سلام دنیا! نسخه ۲"
+  
+  # UI Elements
+  ui:
+    hello_world: "سلام دنیا!"
+  
+  # Error messages
+  errors:
+    not_found:
+      title: "صفحه‌ای که به دنبال آن می‌گردید یافت نشد (۴۰۴)"
+      heading: "صفحه‌ای که به دنبال آن می‌گردید یافت نشد."
+      description: "ممکن است آدرس را اشتباه تایپ کرده باشید یا صفحه منتقل شده باشد."
+    
+    unprocessable_entity:
+      title: "تغییری که می‌خواستید رد شد (۴۲۲)"
+      heading: "تغییری که می‌خواستید رد شد."
+      description: "شاید سعی کرده‌اید چیزی را تغییر دهید که به آن دسترسی نداشتید."
+    
+    internal_server_error:
+      title: "متأسفیم، اما مشکلی پیش آمده است (۵۰۰)"
+      heading: "متأسفیم، اما مشکلی پیش آمده است."
+    
+    owner_instruction: "اگر شما مالک برنامه هستید، برای اطلاعات بیشتر لاگ‌ها را بررسی کنید."
+
+  # Application metadata  
+  app:
+    title: "ریده"
