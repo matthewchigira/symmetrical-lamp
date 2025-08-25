@@ -1,24 +1,24 @@
-# README
+# LIESMICH
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Diese LIESMICH-Datei würde normalerweise alle notwendigen Schritte dokumentieren, um die
+Anwendung zum Laufen zu bringen.
 
-Things you may want to cover:
+Themen, die Sie möglicherweise behandeln möchten:
 
-* Ruby version
+* Ruby-Version
 
-* System dependencies
+* System-Abhängigkeiten
 
-* Configuration
+* Konfiguration
 
-* Database creation
+* Datenbank-Erstellung
 
-* Database initialization
+* Datenbank-Initialisierung
 
-* How to run the test suite
+* Ausführung der Testsuite
 
-* Services (job queues, cache servers, search engines, etc.)
+* Dienste (Warteschlangen, Cache-Server, Suchmaschinen, etc.)
 
-* Deployment instructions
+* Bereitstellungsanweisungen
 
 * ...
