@@ -1,24 +1,24 @@
-# README
+# LEESMIJ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deze LEESMIJ zou normaal alle nodige stappen documenteren om de
+applicatie op te starten en te laten draaien.
 
-Things you may want to cover:
+Zaken die je zou kunnen behandelen:
 
-* Ruby version
+* Ruby versie
 
-* System dependencies
+* Systeemafhankelijkheden
 
-* Configuration
+* Configuratie
 
-* Database creation
+* Database aanmaak
 
-* Database initialization
+* Database initialisatie
 
-* How to run the test suite
+* Hoe de testsuite uit te voeren
 
-* Services (job queues, cache servers, search engines, etc.)
+* Services (taakwachtrijen, cache servers, zoekmachines, enz.)
 
-* Deployment instructions
+* Implementatie-instructies
 
 * ...
